@@ -1,0 +1,137 @@
+/* Body */
+
+body
+    {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Ubuntu';
+        background-color: #520000;
+        text-align: center;
+
+}
+
+
+/* footer (collé en bas de page) */
+
+#main {
+    overflow:auto;
+    padding-bottom: 109px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+    
+
+/* Style des liens */
+  
+a
+{
+	color: #3A8EBA;
+    text-decoration: none;
+}
+
+a:hover
+{
+	color: #286180;
+    text-decoration: underline;
+}
+
+
+
+
+.carte_element_gauche{
+	
+    font-size:25px;
+    
+   
+    font-family: 'Ubuntu';
+    background-color: #DDCBBC;
+    text-align: left;
+    display:block;
+    float:left;
+    /*margin-left:120px;*/
+    margin-left:20px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+.carte_element_droite{
+    /*margin-left: auto;*/
+   /* margin-right: auto;*/
+    font-size:25px;
+    
+   
+    font-family: 'Ubuntu';
+    background-color: #DDCBBC;
+    text-align: left;
+    display:block;
+    float:right;
+    /*margin-right: 120px;*/
+    margin-right:20px;
+    padding:5px;
+    border-radius: 10px;
+}
+
+
+.sous_element_gauche{
+    padding-left:40px;  
+    font-size:15px;
+    text-align:left; 
+    padding-right:50px;
+
+}
+
+.sous_element_droite{
+    text-align:right; 
+    font-size:15px;
+
+}
+
+#first_line .carte_element_gauche {
+    width: 450px;
+}
+
+#first_line .carte_element_droite {
+    width: 470px;
+    height: 248px;
+}
+
+
+#second_line .carte_element_gauche {
+	height:200px;
+	margin-top:40px;
+    width: 450px;
+}
+
+#second_line .carte_element_droite {
+	height:200px;
+	margin-top:40px;
+    width: 470px;
+}
+
+#third_line .carte_element_droite {
+	
+	margin-top:20px;
+    width: 650px;
+}
+
+#indication{
+    margin-top:10px;
+    margin-left:30px;
+    font-size:14px;
+    
+}
+
+
+
+
+/* Balises HTML5 pour vieux navigateurs */
+
+section,nav,article,aside,header,footer,main
+{
+        display: block;
+}

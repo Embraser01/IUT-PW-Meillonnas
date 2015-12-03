@@ -1,0 +1,88 @@
+/* Body */
+
+body
+    {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Ubuntu', sans-serif;
+        background-color: #520000;
+        text-align: center;
+
+}
+
+
+/* footer (collé en bas de page) */
+
+#main {
+    overflow:auto;
+    padding-bottom: 70px;
+}
+
+#test {
+    overflow: hidden;
+}
+
+
+/* Style des liens */
+  
+a
+{
+	color: #3A8EBA;
+    text-decoration: none;
+}
+
+a:hover
+{
+	color: #286180;
+    text-decoration: underline;
+}
+
+
+
+
+/* Style de la liste */
+
+
+#liste li{
+	margin-left: 15px;
+	text-align: left;
+} 
+
+/* Style de l'intro */
+
+#introduction{
+	margin-left:145px;
+	margin-right:145px;
+	background-color : #DDCBBC;
+	border-radius:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+h1{
+    margin-left : 50px;
+    text-align:left;
+    font-family: 'Ubuntu', sans-serif;
+  	font-size : 15px;
+  	
+}
+p{
+    margin-left : 70px;
+     text-align:left;
+     font-family: 'Ubuntu', sans-serif;
+     margin-right : 70px;
+     
+   
+     
+}
+
+
+
+/* Balises HTML5 pour vieux navigateurs */
+
+section,nav,article,aside,header,footer,main
+{
+        display: block;
+}

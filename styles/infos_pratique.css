@@ -1,0 +1,108 @@
+/* Body */
+
+body
+    {
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Ubuntu', sans-serif;
+        background:#520000;
+        text-align: center;
+
+}
+
+
+
+/* footer (collé en bas de page) */
+
+#main {
+    overflow:auto;
+    padding-bottom: 70px;
+    width: 1000px;
+}
+
+
+
+/* Style des liens */
+  
+a
+{
+	color: #3A8EBA;
+    text-decoration: none;
+}
+
+a:hover
+{
+	color: #286180;
+    text-decoration: underline;
+}
+
+
+
+
+/* Style de la liste */
+
+
+#liste li{
+	margin-left: 15px;
+	text-align: left;
+} 
+
+
+
+
+
+
+
+h1{
+    margin-left : 50px;
+    text-align:left;
+    font-family: 'Ubuntu', sans-serif;
+  	font-size : 25px;
+    font-style : italic;
+    color : #996E4A;
+    text-decoration : underline;
+    
+}
+
+
+
+.Coordonées{
+    font-family: 'Ubuntu', sans-serif;
+    text-align:left;
+    
+}
+
+
+p{
+    margin-left : 70px;
+     text-align:left;
+     font-family: 'Ubuntu', sans-serif;
+     margin-right : 70px;
+   
+     
+}
+#contact{
+	background-color : #DDCBBC;
+	border-radius:30px;
+	padding-bottom:5px;
+    padding-top:5px;
+    margin-left:15px;
+    margin-right:15px;
+	
+}
+#map{
+    margin-left : 70px;
+    text-align:left;
+}
+
+
+
+/* Balises HTML5 pour vieux navigateurs */
+
+section,nav,article,aside,header,footer,main
+{
+        display: block;
+}
